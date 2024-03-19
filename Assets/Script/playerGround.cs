@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class playerGround : MonoBehaviour
 {
+    [SerializeField] private AudioSource dieSound;
     [SerializeField] private GameObject player;
     [SerializeField] private float offsetY=0f;
     [SerializeField] private Canvas gameOver;
@@ -45,8 +46,8 @@ public class playerGround : MonoBehaviour
             if (player!=null)
             {
                 gameover = true;
-            
-                  
+
+             dieSound.Play();
             }
             displaygameOver();
 

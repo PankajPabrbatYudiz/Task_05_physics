@@ -9,14 +9,17 @@ TagManager:
   - Building
   - playingGround
   - coin
+  - UITag
+  - rigidBody
+  - collider
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - RigidBody
   - Water
   - UI
-  - 
+  - collider
   - 
   - 
   - 

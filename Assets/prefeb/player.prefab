@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 672905814466758824}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.61, y: -0.05, z: 0}
+  m_LocalPosition: {x: -11.015637, y: -0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -171,5 +171,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cec377e6464e0864a885168eee4d642f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 30
-  offsetx: 5
+  rb: {fileID: 0}
+  OffsetForce: 0
+  speed: 0
+  coins: {fileID: 0}
+  m_Camera: {fileID: 0}
+  textvalue: {fileID: 0}
+  startUI: {fileID: 0}
+  playaGain: {fileID: 0}
+  playingScrean: {fileID: 0}
+  setting: {fileID: 0}
+  istouch: 1
+  isStart: 0
